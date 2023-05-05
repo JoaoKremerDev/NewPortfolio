@@ -53,88 +53,88 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Steve',
+    title: 'Nome : ',
+    description: 'João Vitor',
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Milner',
+    title: 'Sobrenome : ',
+    description: 'Melo Kremer',
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '27 Years',
+    title: 'Idade : ',
+    description: '24 anos',
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Tunisian',
+    title: 'Nacionalidade : ',
+    description: 'Brasileiro',
   },
 
   {
     id: 5,
     title: 'Freelance : ',
-    description: 'Available',
+    description: 'Disponível',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: 'Endereço : ',
+    description: 'Guarapari - ES',
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
+    title: 'Telefone : ',
+    description: '+55 21 998090895',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'joaokremer.developer@mail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Instagram : ',
+    description: 'joao_kremer',
   },
 
   {
     id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Idiomas : ',
+    description: 'Português, Inglês, Japonês, Italiano',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
+    no: '7+',
+    title: 'Meses de <br /> Estudo',
   },
 
   {
     id: 2,
-    no: '97+',
-    title: 'Completed <br /> Projects',
+    no: '22+',
+    title: 'Projetos <br /> Completos',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: '1º',
+    title: 'Semestre em<br /> Engenharia de Software',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '10',
+    title: 'Certificados de curso <br />na Área',
   },
 ];
 

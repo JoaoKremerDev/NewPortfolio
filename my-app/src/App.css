@@ -6,7 +6,7 @@
 :root {
     --first-color: hsl(271, 76%, 53%);
     --title-color: hsl(0, 0%, 40%);
-    --title-color: hsl(0, 0%, 50%);
+    --text-color: hsl(0, 0%, 50%);
     --body-color: hsl(0, 0%, 100%);
     --container-color: hsl(0, 0%, 93%);
     --border-color: hsl(0, 0%, 87%);
@@ -88,7 +88,10 @@ img {
 
 
 /* =======================REUSABLE CSS ===================== */
-
+.container {
+    max-width: 1140px;
+    margin-inline: auto;
+}
 
 .grid {
     display: grid;
@@ -99,6 +102,12 @@ img {
     padding-block: 70px;
 }
 
+.section__title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-800);
+    text-align: center;
+    margin-bottom: 70px;
+}
 .button {
     display: inline-block;
     color: var(--title-color);
