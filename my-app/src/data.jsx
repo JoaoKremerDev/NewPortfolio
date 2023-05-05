@@ -9,51 +9,44 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
-
 import Theme1 from './assets/purple.png';
-import Theme2 from './assets/red.png';
+// import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';
 import Theme4 from './assets/blue.png';
 import Theme5 from './assets/goldenrod.png';
 import Theme6 from './assets/magenta.png';
 import Theme7 from './assets/yellowgreen.png';
-import Theme8 from './assets/orange.png';
+// import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Início',
     icon: <FaHome className='nav__icon' />,
     path: '/',
   },
 
   {
     id: 2,
-    name: 'About',
+    name: 'Sobre',
     icon: <FaUser className='nav__icon' />,
-    path: '/about',
+    path: '/sobre',
   },
 
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Projetos',
     icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio',
+    path: '/projetos',
   },
 
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contato',
     icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/contact',
+    path: '/contato',
   },
 ];
 
@@ -254,7 +247,6 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
     title: 'Photo Editing',
     details: [
       {
@@ -282,7 +274,6 @@ export const portfolio = [
 
   {
     id: 2,
-    img: Work2,
     title: 'Website Design',
     details: [
       {
@@ -310,7 +301,6 @@ export const portfolio = [
 
   {
     id: 3,
-    img: Work3,
     title: 'Video Editing',
     details: [
       {
@@ -338,7 +328,6 @@ export const portfolio = [
 
   {
     id: 4,
-    img: Work4,
     title: 'Video Editing',
     details: [
       {
@@ -366,7 +355,6 @@ export const portfolio = [
 
   {
     id: 5,
-    img: Work5,
     title: 'Landing Page',
     details: [
       {
@@ -390,7 +378,6 @@ export const portfolio = [
 
   {
     id: 6,
-    img: Work6,
     title: 'Photo Editing',
     details: [
       {
@@ -426,7 +413,7 @@ export const themes = [
 
   {
     id: 2,
-    img: Theme2,
+    // img: Theme2,
     color: 'hsl(4, 93%, 54%)',
   },
 
@@ -462,7 +449,7 @@ export const themes = [
 
   {
     id: 8,
-    img: Theme8,
+    // img: Theme8,
     color: 'hsl(19, 96%, 52%)',
   },
 
