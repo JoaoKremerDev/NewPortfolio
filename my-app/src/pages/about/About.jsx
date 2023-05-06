@@ -38,6 +38,13 @@ const About = () => {
       </section>
 
       <div className="separator"></div>
+
+    <section className="skils">
+      <h3 className="section__subtitle subtitle__center">Minhas Skills</h3>
+
+      <div className="skills__container grid"></div>
+    </section>
+
     </main>
   );
 };
