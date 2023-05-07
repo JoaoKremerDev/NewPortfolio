@@ -54,13 +54,7 @@ export const personalInfo = [
   {
     id: 1,
     title: 'Nome : ',
-    description: 'João Vitor',
-  },
-
-  {
-    id: 2,
-    title: 'Sobrenome : ',
-    description: 'Melo Kremer',
+    description: 'João Vitor Melo Kremer',
   },
 
   {
@@ -88,27 +82,15 @@ export const personalInfo = [
   },
 
   {
-    id: 7,
-    title: 'Telefone : ',
-    description: '+55 21 998090895',
-  },
-
-  {
     id: 8,
     title: 'Email : ',
-    description: 'joaokremer.developer@mail.com',
-  },
-
-  {
-    id: 9,
-    title: 'Instagram : ',
-    description: 'joao_kremer',
+    description: 'joaokremer.developer@gmail.com',
   },
 
   {
     id: 10,
     title: 'Idiomas : ',
-    description: 'Português, Inglês, Japonês, Italiano',
+    description: 'Português, Inglês, Japonês e Italiano',
   },
 ];
 
@@ -122,7 +104,7 @@ export const stats = [
   {
     id: 2,
     no: '22+',
-    title: 'Projetos <br /> Completos',
+    title: 'Projetos <br /> Finalizados',
   },
 
   {
