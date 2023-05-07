@@ -1,10 +1,15 @@
 import React from "react";
-import Info from "../../components/info";
-import Stats from "../../components/Stats";
-import { FaDownload } from "react-icons/fa";
-import Skills from "../../components/Skills";
 import CV from "../../assets/FrontendDevKremer.pdf";
 import "./about.css";
+
+import Info from "../../components/info";
+import Stats from "../../components/Stats";
+import Skills from "../../components/Skills";
+import ResumeItem from "../../components/ResumeItem";
+
+import { resume } from '../../data'
+import { FaDownload } from "react-icons/fa";
+
 const About = () => {
   return (
     <main className="section container">
@@ -45,6 +50,27 @@ const About = () => {
         </div>
 
         <div className="separator"></div>
+
+        <div className="section resume">
+        <h3 className="section__subtitle subtitle__center">Educação & Experiência</h3>
+
+        <div className="resume__container grid">
+          <div className="resume__data">
+            {resume.map((val) => {
+              if(val.category === 'experience')
+              return <ResumeItem key={val.id} {...val}/>
+            })}
+          </div>
+
+          <div className="resume__data">
+            {resume.map((val) => {
+              if(val.category === 'education')
+              return <ResumeItem key={val.id} {...val}/>
+            })}
+          </div>
+
+        </div>
+        </div>
       </section>
     </main>
   );
