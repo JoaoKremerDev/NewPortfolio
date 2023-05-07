@@ -2,9 +2,9 @@ import React from "react";
 import Info from "../../components/info";
 import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
+import Skills from "../../components/Skills";
 import CV from "../../assets/FrontendDevKremer.pdf";
 import "./about.css";
-
 const About = () => {
   return (
     <main className="section container">
@@ -13,38 +13,39 @@ const About = () => {
           Sobre <span>Mim</span>
         </h2>
 
+        <div className="about__container grid">
+          <div className="about__info">
+            <h3 className="section__subtitle">Informações Pessoais</h3>
 
-      <div className="about__container grid">
-        <div className="about__info">
-          <h3 className="section__subtitle">Informações Pessoais</h3>
+            <ul className="info__list grid">
+              <Info />
+            </ul>
 
-          <ul className="info__list grid">
-            <Info />
-          </ul>
+            <a href={CV} download="" className="button">
+              Baixar Currículo
+              <span className="button__icon">
+                <FaDownload />
+              </span>
+            </a>
+          </div>
 
-          <a href={CV} download="" className="button">
-            Baixar Currículo
-            <span className="button__icon">
-              <FaDownload />
-            </span>
-          </a>
-
-        </div>
-        
-        <div className="stats grid">
+          <div className="stats grid">
             <Stats />
           </div>
-      </div>
+        </div>
       </section>
 
       <div className="separator"></div>
 
-    <section className="skils">
-      <h3 className="section__subtitle subtitle__center">Minhas Skills</h3>
+      <section className="skils">
+        <h3 className="section__subtitle subtitle__center">Minhas Skills</h3>
 
-      <div className="skills__container grid"></div>
-    </section>
+        <div className="skills__container grid">
+          <Skills />
+        </div>
 
+        <div className="separator"></div>
+      </section>
     </main>
   );
 };
