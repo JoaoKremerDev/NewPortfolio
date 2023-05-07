@@ -126,53 +126,43 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
-  },
-
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    title: 'Desenvolvedor Front-end Jr - SouJunior',
+    desc: 'Como desenvolvedor React no projeto "Vagas", sou responsável por desenvolver e manter os componentes React da aplicação, além de utilizar TypeScript para garantir a tipagem dos dados e melhorar a escalabilidade e manutenção do código. Trabalho com as bibliotecas do React para gerenciamento de estado, roteamento e consultas à API, e utilizo Styled Components para estilizar os componentes da aplicação, seguindo as diretrizes de design definidas para a plataforma. Além disso, testo e faço a depuração da aplicação para garantir o bom funcionamento e a qualidade do código. Sempre alinhado com os requisitos do projeto e com as necessidades dos usuários, buscando propor soluções criativas e eficientes para atingir esses objetivos. É uma experiência enriquecedora, que me permite aprimorar minhas habilidades em desenvolvimento React e em trabalhar em equipe, além de contribuir para o desenvolvimento de uma plataforma que conecta candidatos e empresas de forma eficiente e inovadora.',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2023 - 2027',
+    title: 'Bacharelado em Engenharia De Software - Estácio',
+    desc: 'Engenharia de software é o processo de desenvolver, manter e gerenciar sistemas de software, envolvendo planejamento, análise, design, implementação, teste e manutenção. É uma área interdisciplinar que utiliza princípios da engenharia para garantir que os sistemas de software sejam desenvolvidos de maneira eficiente, eficaz e de acordo com as necessidades dos usuários.',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '10/2022 - 10/2022',
+    title: 'JavaScript Fundamentos - Udemy',
+    desc: 'Curso de JavaScript focado em aprender os fundamentos e aprimorar bem a base e lógica para avançar na utilização da linguagem com maior segurança.',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '11/2022 - 02/2023',
+    title: 'Curso de JavaScript - Origamid ',
+    desc: '74 horas de curso onde eu aprendi desde os fundamentos básicos até os avançados sobre a linguagem de programação JavaScript. Conhecimentos que foram praticados em projetos que estão no meu portfólio.',
+  },
+  {
+    id: 7,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '02/2023 - 31/03/2023',
+    title: 'React - Origamid  ',
+    desc: 'Curso onde aprendi bastante sobre os conceitos fundamentais e também os mais avançados sobre a utilização da biblioteca React.',
   },
 ];
 

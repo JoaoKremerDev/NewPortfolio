@@ -104,6 +104,8 @@
 .resume__item {
     position: relative;
     padding-left: 60px;
+    cursor: pointer;
+    transition: 2s ease-out;
 }
 
 
@@ -147,14 +149,11 @@
     margin-block: 20px 10px;
 }
 
-.resume__subtitle span {
-    color: var(--text-color);
-    font-family: var(--body-font);
-    font-size: var(--small-font-size);
-    font-weight: var(--weight-600);
-    position: relative;
-    padding-left: 26px;
+.resume__subtitle:hover{
+    box-shadow: 0px 0px 24px 0px var(--first-color);
 }
+
+
 
 .resume__subtitle span::before {
     content: '';
@@ -168,4 +167,13 @@
 
 .resume__description {
     font-size: var(--small-font-size);
+    display: block;
+    transition: 2s ease-in-out;
+    overflow: hidden;
+    max-height: 0px;
+}
+
+.resume__description.expanded {
+  max-height: 1000px; /* ajuste esse valor de acordo com o tamanho do conteúdo */
+  transition: max-height 2s ease-in-out;
 }

@@ -52,19 +52,19 @@ const About = () => {
         <div className="separator"></div>
 
         <div className="section resume">
-        <h3 className="section__subtitle subtitle__center">Educação & Experiência</h3>
+        <h3 className="section__subtitle subtitle__center">Formação & Experiência</h3>
 
         <div className="resume__container grid">
           <div className="resume__data">
             {resume.map((val) => {
-              if(val.category === 'experience')
+              if(val.category === 'education')
               return <ResumeItem key={val.id} {...val}/>
             })}
           </div>
 
           <div className="resume__data">
             {resume.map((val) => {
-              if(val.category === 'education')
+              if(val.category === 'experience')
               return <ResumeItem key={val.id} {...val}/>
             })}
           </div>
