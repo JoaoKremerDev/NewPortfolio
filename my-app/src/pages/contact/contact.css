@@ -1,0 +1,42 @@
+.contact_socials {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.contact_socials a {
+    display: flex;
+    min-width: 200px;
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-800);
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--first-color);
+    color: white;
+    border-radius: 8px;
+    gap: 20px;
+    position: relative;
+}
+
+.contact_socials a svg:first-child {
+    color: var(--text-white);
+    font-size: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+  }
+
+.contact_socials a:hover{
+    background-color: var(--text-white);
+    color: var(--first-color);
+    border: 4px solid var(--first-color);
+    transition: .3s ease-in-out;
+}
+
+.contact_socials a:hover svg:first-child{
+    color: var(--first-color);
+    transition: .3s ease-in-out;
+}

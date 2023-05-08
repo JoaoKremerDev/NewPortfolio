@@ -9,6 +9,8 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
+import { FaLinkedin, FaWhatsapp, FaDiscord, FaEnvelope, FaInstagram } from 'react-icons/fa';
+
 import Theme1 from './assets/purple.png';
 // import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';
@@ -431,3 +433,39 @@ export const themes = [
     color: 'hsl(42, 100%, 50%)',
   },
 ];
+
+
+
+
+export const socials = [
+  {
+    id: 1,
+    socialMedia: "Linkedin",
+    icon: <FaLinkedin/>,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    id: 2,
+    socialMedia: "WhatsApp",
+    icon: <FaWhatsapp/>,
+    link: "https://web.whatsapp.com/"
+  },
+  {
+    id: 3,
+    socialMedia: "Discord",
+    icon: <FaDiscord/>,
+    link: "https://discord.com/"
+  },
+  {
+    id: 4,
+    socialMedia: "Gmail",
+    icon: <FaEnvelope/>,
+    link: "https://mail.google.com/"
+  },
+  {
+    id: 5,
+    socialMedia: "Instagram",
+    icon: <FaInstagram/>,
+    link: "https://www.instagram.com/"
+  }
+]

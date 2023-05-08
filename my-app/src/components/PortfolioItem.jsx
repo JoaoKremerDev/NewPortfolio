@@ -8,6 +8,7 @@ const PortfolioItem = ({ img, title, details }) => {
   const toggleModal = () => {
     setModal(!modal);
   };
+  
   return (
     <div className="portfolio__item">
       <img src={img} alt="" className="portfolio__img" />
