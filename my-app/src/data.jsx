@@ -19,7 +19,7 @@ import Theme7 from './assets/yellowgreen.png';
 // import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
-
+import Perfil from '../src/assets/perfil.png'
 export const links = [
   {
     id: 1,
@@ -208,6 +208,7 @@ export const portfolio = [
   {
     id: 1,
     title: 'Photo Editing',
+    img: Perfil,
     details: [
       {
         icon: <FiFileText />,
@@ -235,6 +236,7 @@ export const portfolio = [
   {
     id: 2,
     title: 'Website Design',
+    img: Perfil,
     details: [
       {
         icon: <FiFileText />,
@@ -262,6 +264,7 @@ export const portfolio = [
   {
     id: 3,
     title: 'Video Editing',
+    img: Perfil,
     details: [
       {
         icon: <FiFileText />,
@@ -289,6 +292,7 @@ export const portfolio = [
   {
     id: 4,
     title: 'Video Editing',
+    img: Perfil,
     details: [
       {
         icon: <FiFileText />,
@@ -316,6 +320,7 @@ export const portfolio = [
   {
     id: 5,
     title: 'Landing Page',
+    img: Perfil,
     details: [
       {
         title: 'Project : ',
@@ -339,6 +344,7 @@ export const portfolio = [
   {
     id: 6,
     title: 'Photo Editing',
+    img: Perfil,
     details: [
       {
         icon: <FiFileText />,
