@@ -353,8 +353,8 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Repositório : ',
+        desc: 'https://github.com/JoaoKremerDev/Meu-portfolio',
       },
       {
         icon: <FaCode />,
@@ -363,7 +363,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Site : ',
         desc: 'www.dibble.com',
       },
     ],
