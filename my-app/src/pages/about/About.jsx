@@ -52,25 +52,27 @@ const About = () => {
         <div className="separator"></div>
 
         <div className="section resume">
-          <h3 className="section__subtitle subtitle__center">
-            Formação & Experiência
-          </h3>
-
           <div className="resume__container grid">
-            <h1 className="section__subtitle subtitle__center">Formação</h1>
-            <div className="resume__data">
-              {resume.map((val) => {
-                if (val.category === "education")
-                  return <ResumeItem key={val.id} {...val} />;
-              })}
+            <div className="resume__category">
+              <h3 className="section__subtitle subtitle__center">Formação</h3>
+              <div className="resume__data">
+                {resume.map((val) => {
+                  if (val.category === "education")
+                    return <ResumeItem key={val.id} {...val} />;
+                })}
+              </div>
             </div>
 
-            <div className="resume__data">
-            <h1 className="section__subtitle subtitle__center">Experiência</h1>
-              {resume.map((val) => {
-                if (val.category === "experience")
-                  return <ResumeItem key={val.id} {...val} />;
-              })}
+            <div className="resume__category">
+              <h3 className="section__subtitle subtitle__center">
+                Experiência
+              </h3>
+              <div className="resume__data">
+                {resume.map((val) => {
+                  if (val.category === "experience")
+                    return <ResumeItem key={val.id} {...val} />;
+                })}
+              </div>
             </div>
           </div>
         </div>

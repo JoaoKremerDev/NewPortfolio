@@ -166,6 +166,14 @@ export const resume = [
     title: 'React - Origamid  ',
     desc: 'Curso onde aprendi bastante sobre os conceitos fundamentais e também os mais avançados sobre a utilização da biblioteca React.',
   },
+  {
+    id: 7,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '02/2023 - 31/03/2023',
+    title: 'React - Origamid  ',
+    desc: 'Curso onde aprendi bastante sobre os conceitos fundamentais e também os mais avançados sobre a utilização da biblioteca React.',
+  },
 ];
 
 export const skills = [
