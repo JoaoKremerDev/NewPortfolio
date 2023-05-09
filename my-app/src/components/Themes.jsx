@@ -6,24 +6,48 @@ import "./themes.css";
 import { themes } from "../data";
 
 const getStorageColor = () => {
-  let color = 'hsl(252, 35%, 51%)';
-  if(localStorage.getItem('color')) {
-    color = localStorage.getItem('color')
+  let color = 'hsl(271, 76%, 53%)';
+  if(localStorage.getItem('dev_kremer_portfolio_color')) {
+    color = localStorage.getItem('dev_kremer_portfolio_color')
   }
   return color;
+}
+
+const getStorageTheme = () => {
+  let theme = 'light-theme';
+  if(localStorage.getItem('theme')) {
+    theme = localStorage.getItem('theme')
+  }
+  return theme;
 }
 const Themes = () => {
   const [showSwitcher, setShowSwitcher] = useState(false);
   const [color, setColor] = useState(getStorageColor());
+  const [theme, setTheme] = useState(getStorageTheme());
+
 
   const changeColor = (color) => {
     setColor(color);
   }
 
+  const toggleTheme = () => {
+    if(theme === 'light-theme') {
+      setTheme('dark-theme');
+    }
+      else {
+        setTheme('light-theme')
+      }
+  };
+
   useEffect(() => {
       document.documentElement.style.setProperty('--first-color', color);
-      localStorage.setItem('color', color);
+      localStorage.setItem('dev_kremer_portfolio_color', color);
   }, [color])
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
+}, [theme, color])
   
   return (
     <div>
@@ -34,9 +58,9 @@ const Themes = () => {
 
         <div
           className="theme__toggler"
-         
+          onClick={toggleTheme}
         >
-          <BsMoon />
+          {theme === 'light-theme' ? <BsMoon /> : <BsSun/>}
         </div>
 
         <h3 className="style__switcher-title">Sistema de Cores</h3>
@@ -53,5 +77,3 @@ const Themes = () => {
 };
 
 export default Themes;
-
-console.log(themes);

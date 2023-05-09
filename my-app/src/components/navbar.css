@@ -6,7 +6,7 @@
     width: 100%;
     padding: 60px 30px;
     transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-    z-index: 2;
+    z-index: 100;
 }
 
 .show-menu{
@@ -48,7 +48,7 @@
     background-color: var(--container-color);
     border-radius: 5px;
     padding: 12px 10px;
-    z-index: 2;
+    z-index: 100;
 }
 
 .nav__toggle span {
@@ -92,6 +92,7 @@
         right: 30px;
         display: flex;
         align-items: center;
+        z-index: 100;
     }
 
     .nav__item {
@@ -142,5 +143,21 @@
     .active-nav .nav__icon{
         color: var(--text-white);
         z-index: 999;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav__toggle {
+        top: 20px;
+        right: 25px;
+    }
+
+    .nav__link {
+        column-gap: 20px;
+    }
+
+    .nav__icon,
+    .nav__name {
+        font-size: var(--h3-font-size);
     }
 }

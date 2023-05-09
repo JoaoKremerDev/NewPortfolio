@@ -1,3 +1,6 @@
+.contact .section__title {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .contact_socials {
     display: flex;
     flex-direction: column;
@@ -8,35 +11,66 @@
 
 .contact_socials a {
     display: flex;
-    min-width: 200px;
-    font-size: var(--large-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--weight-800);
+    font-family:Arial, Helvetica, sans-serif;
     min-height: 60px;
     align-items: center;
     justify-content: center;
-    background-color: var(--first-color);
-    color: white;
+    background-color: var(--text-white);
+    border: 4px solid var(--first-color);
+    color: var(--first-color);
     border-radius: 8px;
     gap: 20px;
     position: relative;
 }
 
 .contact_socials a svg:first-child {
-    color: var(--text-white);
-    font-size: 24px;
+    color: var(--first-color);
+    font-size: 32px;
     position: absolute;
-    top: 18px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
   }
 
 .contact_socials a:hover{
+    background-color: var(--first-color);
+    color: var(--text-white);
+    border: 2px solid var(--text-white);
+    transition: .3s ease-in-out;
+}
+
+.contact_socials a:hover svg:first-child{
+    color: var(--text-white);
+    transition: .3s ease-in-out;
+}
+
+.light-theme .contact_socials a {
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.light-theme .contact_socials a svg {
+    color: var(--text-white);
+}
+
+.light-theme .contact_socials a:hover{
     background-color: var(--text-white);
     color: var(--first-color);
     border: 4px solid var(--first-color);
     transition: .3s ease-in-out;
 }
 
-.contact_socials a:hover svg:first-child{
+.light-theme .contact_socials a:hover svg:first-child{
     color: var(--first-color);
     transition: .3s ease-in-out;
+}
+
+
+
+
+@media  screen and (max-width: 576px) {
+    .contact_socials {
+        max-width: 360px;
+    }
 }

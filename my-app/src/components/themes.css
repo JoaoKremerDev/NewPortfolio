@@ -80,3 +80,19 @@
     top: 2%;
     right: 15px;
 }
+
+
+@media screen and (max-width: 576px) {
+    .style__switcher {
+        top: 0;
+    }
+
+    .style__switcher-toggler {
+        left: 100%;
+    }
+    
+    .theme__toggler {
+        top: 5%;
+        left: 125%;
+    }
+}

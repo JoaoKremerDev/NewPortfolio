@@ -376,16 +376,16 @@ export const themes = [
   {
     id: 1,
     img: Theme1,
-    color: 'hsl(252, 35%, 51%)',
+    color: 'hsl(272.20338983050846, 73.44398340248962%, 47.25490196078431%)',
   },
 
   {
     id: 2,
     img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
+    color: 'hsl(0, 100%, 50%)',
   },
 
-  {
+  { 
     id: 3,
     img: Theme3,
     color: 'hsl(271, 76%, 53%)',
@@ -394,7 +394,7 @@ export const themes = [
   {
     id: 4,
     img: Theme4,
-    color: 'hsl(225, 73%, 57%)',
+    color: 'hsl(210, 100%, 50%)',
   },
 
   {
@@ -406,25 +406,25 @@ export const themes = [
   {
     id: 6,
     img: Theme6,
-    color: 'hsl(339, 81%, 66%)',
+    color: 'hsl(328.95652173913044, 93.4959349593496%, 51.76470588235295%)',
   },
 
   {
     id: 7,
     img: Theme7,
-    color: 'hsl(80, 61%, 50%)',
+    color: 'hsl(79.88950276243094, 89.16256157635469%, 39.80392156862745%)',
   },
 
   {
     id: 8,
     img: Theme8,
-    color: 'hsl(19, 96%, 52%)',
+    color: 'hsl(29, 100%, 50%)',
   },
 
   {
     id: 9,
     img: Theme9,
-    color: 'hsl(88, 65%, 43%)',
+    color: 'hsl(113.04878048780489, 98.79518072289157%, 32.549019607843135%)',
   },
 
   {

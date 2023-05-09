@@ -32,6 +32,29 @@
     --weight-800: 800;
 }
 
+.dark-theme {
+    --title-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 80%);
+    --body-color: hsl(0, 0%, 7%);
+    --container-color: hsl(0, 1%, 17%);
+    --border-color: hsl(0, 0%, 15%);
+}
+
+@media screen and (max-width: 1200px ){
+    :root {
+        --big-font-size: 36px;
+        --h1-font-size: 32px;
+        --h2-font-size: 24px;
+        --h3-font-size: 20px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 11px;
+    }
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -89,7 +112,7 @@ img {
 
 /* =======================REUSABLE CSS ===================== */
 .container {
-    max-width: 1140px;
+    max-width: calc(100% - 180px);
     margin-inline: auto;
 }
 

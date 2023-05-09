@@ -4,7 +4,9 @@
 .resume__container{
     grid-template-columns: repeat(2, 1fr);
 }
-
+.about__info {
+    grid-template-columns: 1fr 1fr;
+}
 .info__list {
     row-gap: 20px;
     margin-bottom: 32px;
@@ -80,6 +82,7 @@
 }
 
 .CircularProgressbar .CircularProgressbar-path  {
+    stroke: var(--first-color)!important;
     stroke: var(--first-color);
     stroke-dasharray: calc(440px - 10px) 440px;
     stroke-dashoffset: calc(440px - 10px);
@@ -192,3 +195,51 @@
     transition: all 1s ease-in-out;
     max-height: 1000px;
 }
+
+@media screen and (max-width: 1024px) {
+    .about__container,
+    .resume__container {
+        grid-template-columns: 1fr;
+    }
+    .subtitle__center {
+        margin-bottom: 45px;
+    }
+
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .resume__container {
+        row-gap: 45px;
+    }
+
+    .separator {
+        margin: 65px auto 50px;
+    }
+
+    .resune__item:not(:last-child) {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info__title {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .stats__box {
+        padding: 15px 15px 25px 20p;
+    }
+}
+
+@media screen and (max-width: 350px) { 
+    .stats{
+        grid-template-columns: 1fr;
+    }
+}
+
+

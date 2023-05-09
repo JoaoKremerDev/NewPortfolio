@@ -9,8 +9,6 @@ import ResumeItem from "../../components/ResumeItem";
 
 import { resume } from "../../data";
 import { FaDownload } from "react-icons/fa";
-import ThemeItem from "../../components/ThemeItem";
-import Themes from "../../components/Themes";
 
 const About = () => {
   return (
@@ -59,6 +57,7 @@ const About = () => {
           </h3>
 
           <div className="resume__container grid">
+            <h1 className="section__subtitle subtitle__center">Formação</h1>
             <div className="resume__data">
               {resume.map((val) => {
                 if (val.category === "education")
@@ -67,6 +66,7 @@ const About = () => {
             </div>
 
             <div className="resume__data">
+            <h1 className="section__subtitle subtitle__center">Experiência</h1>
               {resume.map((val) => {
                 if (val.category === "experience")
                   return <ResumeItem key={val.id} {...val} />;

@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px;
+    }
+    
+    .home__data{
+        padding-right: 40px;
+    }
+
+    .home__title {
+        font-size: var(--big-font-size);
+    }
+
+    .home__description {
+        font-size: var(--small-font-size);
+    }
+
+    .stats__title {
+        padding-left: 35px;
+    }
+
+    .stats__title::before {
+        width: 22px;
+    }
+
+    .skills__container {
+        row-gap: 32px;
+    }
+
+    .progress__circle {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .resume__icon {
+        width: 36px;
+        height: 36px;
+        line-height: 38px;
+    }
+
+    .resume__item {
+        padding-left: 55px;
+    }
+
+    .portfolio__modal-content {
+        max-width: 600px;
+    }
+
+    .modal__close {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .home {
+        padding: 20px;
+        grid-template-columns: 5fr 7fr;
+    }
+
+    .home__data {
+        padding-right: 0;
+    }
+
+    .section {
+        padding-block: 50px;
+    }
+
+    .section__title {
+        margin-bottom: 40px;
+    }
+
+    /* .about__container,
+    .resume__container{
+        grid-template-columns: 1fr;
+    } */
+    /* Essa parte foi estilizada no about por motivos de bug */
+   
+}
