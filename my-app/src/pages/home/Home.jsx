@@ -3,6 +3,7 @@ import Profile from '../../assets/perfil.png';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import "./home.css"
+import Themes from '../../components/Themes';
 
 const Home = () => {
   return (
@@ -29,7 +30,6 @@ const Home = () => {
 
       <div className="color__block"></div>
     </section>
-
   )
 }
 

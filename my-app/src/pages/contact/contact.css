@@ -1,7 +1,7 @@
 .contact_socials {
     display: flex;
     flex-direction: column;
-    max-width: 360px;
+    max-width: 600px;
     margin: 0 auto;
     gap: 16px;
 }

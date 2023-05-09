@@ -7,8 +7,10 @@ import Stats from "../../components/Stats";
 import Skills from "../../components/Skills";
 import ResumeItem from "../../components/ResumeItem";
 
-import { resume } from '../../data'
+import { resume } from "../../data";
 import { FaDownload } from "react-icons/fa";
+import ThemeItem from "../../components/ThemeItem";
+import Themes from "../../components/Themes";
 
 const About = () => {
   return (
@@ -52,24 +54,25 @@ const About = () => {
         <div className="separator"></div>
 
         <div className="section resume">
-        <h3 className="section__subtitle subtitle__center">Formação & Experiência</h3>
+          <h3 className="section__subtitle subtitle__center">
+            Formação & Experiência
+          </h3>
 
-        <div className="resume__container grid">
-          <div className="resume__data">
-            {resume.map((val) => {
-              if(val.category === 'education')
-              return <ResumeItem key={val.id} {...val}/>
-            })}
+          <div className="resume__container grid">
+            <div className="resume__data">
+              {resume.map((val) => {
+                if (val.category === "education")
+                  return <ResumeItem key={val.id} {...val} />;
+              })}
+            </div>
+
+            <div className="resume__data">
+              {resume.map((val) => {
+                if (val.category === "experience")
+                  return <ResumeItem key={val.id} {...val} />;
+              })}
+            </div>
           </div>
-
-          <div className="resume__data">
-            {resume.map((val) => {
-              if(val.category === 'experience')
-              return <ResumeItem key={val.id} {...val}/>
-            })}
-          </div>
-
-        </div>
         </div>
       </section>
     </main>
