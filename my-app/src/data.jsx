@@ -12,13 +12,13 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import { FaLinkedin, FaWhatsapp, FaDiscord, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 import Theme1 from './assets/purple.png';
-// import Theme2 from './assets/red.png';
+import Theme2 from './assets/red.png';
 import Theme3 from './assets/blueviolet.png';
 import Theme4 from './assets/blue.png';
 import Theme5 from './assets/goldenrod.png';
 import Theme6 from './assets/magenta.png';
 import Theme7 from './assets/yellowgreen.png';
-// import Theme8 from './assets/orange.png';
+import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 import Perfil from '../src/assets/perfil.png'
@@ -381,7 +381,7 @@ export const themes = [
 
   {
     id: 2,
-    // img: Theme2,
+    img: Theme2,
     color: 'hsl(4, 93%, 54%)',
   },
 
@@ -417,7 +417,7 @@ export const themes = [
 
   {
     id: 8,
-    // img: Theme8,
+    img: Theme8,
     color: 'hsl(19, 96%, 52%)',
   },
 
