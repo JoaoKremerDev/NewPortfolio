@@ -234,11 +234,23 @@
     .stats__box {
         padding: 15px 15px 25px 20p;
     }
+    
+    .about__container {
+        padding-inline: 10px;
+    }
 }
 
-@media screen and (max-width: 350px) { 
+@media screen and (max-width: 380px) { 
     .stats{
         grid-template-columns: 1fr;
+    }
+
+    .info__list {
+        grid-template-columns: 1fr;
+    }
+
+    .info__item {
+        display: flex;
     }
 }
 
