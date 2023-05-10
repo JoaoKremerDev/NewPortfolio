@@ -6,7 +6,7 @@ import "./themes.css";
 import { themes } from "../data";
 
 const getStorageColor = () => {
-  let color = 'hsl(271, 76%, 53%)';
+  let color = 'hsl(0, 100%, 50%)';
   if(localStorage.getItem('dev_kremer_portfolio_color')) {
     color = localStorage.getItem('dev_kremer_portfolio_color')
   }
@@ -14,7 +14,7 @@ const getStorageColor = () => {
 }
 
 const getStorageTheme = () => {
-  let theme = 'light-theme';
+  let theme = 'dark-theme';
   if(localStorage.getItem('theme')) {
     theme = localStorage.getItem('theme')
   }
