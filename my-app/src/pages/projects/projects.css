@@ -167,6 +167,11 @@
         width: 40px;
     }
 
+    .portfolio__item {
+        padding-inline: 20px;
+        border-radius: 35px;
+    }
+
 }
 
 
