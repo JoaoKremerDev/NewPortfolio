@@ -299,149 +299,176 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    title: "Photo Editing",
+    title: "Projeto Vagas - SouJunior",
     img: Perfil,
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
+        title: "Descrição : ",
+        desc: "Match entre juniors e empresas",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Repositório : ",
+        desc: "https://github.com/SouJunior/vagas-frontend",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Linguagens : ",
+        desc: "TypeScript | React ",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
+        title: "Site: ",
+        desc: "Em fase de desenvolvimento",
       },
     ],
   },
 
   {
     id: 2,
-    title: "Website Design",
+    title: "MoviesLib",
     img: Perfil,
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
+        title: "Descrição : ",
+        desc: "Consumindo uma API de filmes.",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/MoviesLib",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Linguagem : ",
         desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
+        title: "Site : ",
+        desc: "https://movies-lib-iota.vercel.app/",
       },
     ],
   },
 
   {
     id: 3,
-    title: "Video Editing",
+    title: "Kremer's Blog",
     img: Perfil,
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
+        title: "Descrição : ",
+        desc: "Blog para postagens",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/Kremer-s_blog",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Linguagem : ",
+        desc: "React JS | Firebase",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
+        title: "Site : ",
+        desc: "https://kremer-s-blog.vercel.app/login",
       },
     ],
   },
 
   {
     id: 4,
-    title: "Video Editing",
+    title: "Secret Word",
     img: Perfil,
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
+        title: "Descrição : ",
+        desc: "Jogo de caça-palavras",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/SecretWord",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Linguagem : ",
+        desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
+        title: "Site : ",
+        desc: "https://secret-word-three-psi.vercel.app/",
       },
     ],
   },
 
   {
     id: 5,
-    title: "Landing Page",
+    title: "Loja de Produtos",
     img: Perfil,
     details: [
       {
-        title: "Project : ",
-        desc: "Website",
+        title: "Descrição : ",
+        desc: "Menu de produtos de uma loja",
       },
       {
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/Renek---Loja",
       },
       {
-        title: "Language : ",
-        desc: "React JS, Node JS",
+        title: "Linguagem : ",
+        desc: "React JS",
       },
       {
-        title: "Preview : ",
-        desc: "www.dribble.com",
+        title: "Site : ",
+        desc: "https://vercel.com/joaokremerdev/renek-loja",
       },
     ],
   },
 
   {
     id: 6,
-    title: "Photo Editing",
+    title: "Animais Fantásticos",
     img: Perfil,
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
+        title: "Descrição : ",
+        desc: "Falamos sobre alguns animais.",
+      },
+      {
+        icon: <FiUser />,
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/animais-fantasticos",
+      },
+      {
+        icon: <FaCode />,
+        title: "Linguagem : ",
+        desc: "HTML | CSS | JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Site : ",
+        desc: "https://joaokremerdev.github.io/animais-fantasticos/",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "DevKremer",
+    img: Perfil,
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Descrição : ",
+        desc: "Primeiro Portfólio.",
       },
       {
         icon: <FiUser />,
@@ -450,13 +477,94 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Linguagem : ",
+        desc: "HTML | CSS | JS",
       },
       {
         icon: <FiExternalLink />,
         title: "Site : ",
-        desc: "www.dibble.com",
+        desc: "https://joaokremerdev.github.io/Meu-portfolio/",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "BikCraft",
+    img: Perfil,
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Descrição : ",
+        desc: "Loja de Bicicletas.",
+      },
+      {
+        icon: <FiUser />,
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/Bikcraft",
+      },
+      {
+        icon: <FaCode />,
+        title: "Linguagem : ",
+        desc: "HTML | CSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Site : ",
+        desc: "https://joaokremerdev.github.io/Bikcraft/",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "FlexBlog",
+    img: Perfil,
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Descrição : ",
+        desc: "Uma incrível Landing Page.",
+      },
+      {
+        icon: <FiUser />,
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/Flexblog",
+      },
+      {
+        icon: <FaCode />,
+        title: "Linguagem : ",
+        desc: "HTML | CSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Site : ",
+        desc: "https://joaokremerdev.github.io/Flexblog/",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Wildbeast",
+    img: Perfil,
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Descrição : ",
+        desc: "Uma incrível Landing Page.",
+      },
+      {
+        icon: <FiUser />,
+        title: "Repositório : ",
+        desc: "https://github.com/JoaoKremerDev/Grid-project",
+      },
+      {
+        icon: <FaCode />,
+        title: "Linguagem : ",
+        desc: "HTML | CSS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Site : ",
+        desc: "https://joaokremerdev.github.io/Grid-project/",
       },
     ],
   },

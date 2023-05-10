@@ -16,7 +16,7 @@ const Home = () => {
           <span>Desenvolvedor Web</span>
           </h1>
           <p className="home__description">
-            Eu sou um Desenvolvedor Front-end JR com foco em criar uma experiência agradável para o usuário. Sou apaixonado pela criação de softwares que possam ajudar aqueles que estão ao meu redor. 
+            Eu sou um Desenvolvedor Front-end com foco em criar uma experiência agradável para o usuário e apaixonado pela criação de softwares que possam ajudar aqueles que estão ao meu redor. 
           </p>
 
           <Link to='/sobre' className='button'>
