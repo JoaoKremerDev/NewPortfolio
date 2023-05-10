@@ -71,7 +71,7 @@
 }
 
 .skills__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     row-gap: 48px;
     justify-items: center;
 }
@@ -95,7 +95,7 @@
 .CircularProgressbar-text {
     fill: var(--title-color) !important;
     font-family: var(--second-font) !important;
-    font-size: var(--large-font-size) !important;
+    font-size: var(--smaller-font-size) !important;
 }
 
 .subtitle__center {
