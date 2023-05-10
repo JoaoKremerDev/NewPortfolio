@@ -55,31 +55,31 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'Nome : ',
+    title: 'Nome: ',
     description: 'João Vitor Melo Kremer',
   },
 
   {
     id: 3,
-    title: 'Idade : ',
+    title: 'Idade: ',
     description: '24 anos',
   },
 
   {
     id: 4,
-    title: 'Nacionalidade : ',
+    title: 'Nacionalidade: ',
     description: 'Brasileiro',
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
+    title: 'Freelance: ',
     description: 'Disponível',
   },
 
   {
     id: 6,
-    title: 'Endereço : ',
+    title: 'Endereço:',
     description: 'Guarapari - ES',
   },
 

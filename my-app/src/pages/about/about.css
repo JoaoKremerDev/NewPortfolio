@@ -252,6 +252,10 @@
     .info__item {
         display: flex;
     }
+    
+    .info__title {
+        padding-right: 6px;
+    }
 }
 
 
