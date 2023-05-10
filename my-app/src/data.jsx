@@ -27,7 +27,19 @@ import Theme7 from "./assets/yellowgreen.png";
 import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
+
 import Perfil from "../src/assets/perfil.png";
+import animais from '../src/assets/animais.png'
+import wildbeast from '../src/assets/wildbeast.png'
+import portfolioJS from '../src/assets/portfolioJS.png';
+import soujunior from '../src/assets/soujunior.png';
+import movieslib from '../src/assets/movieslib.png';
+import secretword from '../src/assets/secretword.png';
+import lojasproduto from '../src/assets/lojasproduto.png';
+import flexblog from '../src/assets/flexblog.png';
+import blog from '../src/assets/blog.png';
+import bikcraft from '../src/assets/bikcraft.png';
+
 export const links = [
   {
     id: 1,
@@ -275,22 +287,28 @@ export const skills = [
 
   {
     id: 7,
+    title: "TypeScript",
+    percentage: "60",
+  },
+
+  {
+    id: 8,
     title: "Styled Comp",
     percentage: "80",
   },
 
   {
-    id: 7,
+    id: 9,
     title: "Tailwind",
     percentage: "80",
   },
   {
-    id: 8,
+    id: 10,
     title: "Bootstrap",
     percentage: "80",
   },
   {
-    id: 9,
+    id: 11,
     title: "Scrum",
     percentage: "80",
   },
@@ -300,7 +318,7 @@ export const portfolio = [
   {
     id: 1,
     title: "Projeto Vagas - SouJunior",
-    img: Perfil,
+    img: soujunior,
     details: [
       {
         icon: <FiFileText />,
@@ -328,7 +346,7 @@ export const portfolio = [
   {
     id: 2,
     title: "MoviesLib",
-    img: Perfil,
+    img: movieslib,
     details: [
       {
         icon: <FiFileText />,
@@ -356,7 +374,7 @@ export const portfolio = [
   {
     id: 3,
     title: "Kremer's Blog",
-    img: Perfil,
+    img: blog,
     details: [
       {
         icon: <FiFileText />,
@@ -384,7 +402,7 @@ export const portfolio = [
   {
     id: 4,
     title: "Secret Word",
-    img: Perfil,
+    img: secretword,
     details: [
       {
         icon: <FiFileText />,
@@ -412,7 +430,7 @@ export const portfolio = [
   {
     id: 5,
     title: "Loja de Produtos",
-    img: Perfil,
+    img: lojasproduto,
     details: [
       {
         title: "Descrição : ",
@@ -436,7 +454,7 @@ export const portfolio = [
   {
     id: 6,
     title: "Animais Fantásticos",
-    img: Perfil,
+    img: animais,
     details: [
       {
         icon: <FiFileText />,
@@ -463,7 +481,7 @@ export const portfolio = [
   {
     id: 8,
     title: "DevKremer",
-    img: Perfil,
+    img: portfolioJS,
     details: [
       {
         icon: <FiFileText />,
@@ -490,7 +508,7 @@ export const portfolio = [
   {
     id: 6,
     title: "BikCraft",
-    img: Perfil,
+    img: bikcraft,
     details: [
       {
         icon: <FiFileText />,
@@ -517,7 +535,7 @@ export const portfolio = [
   {
     id: 7,
     title: "FlexBlog",
-    img: Perfil,
+    img: flexblog,
     details: [
       {
         icon: <FiFileText />,
@@ -544,7 +562,7 @@ export const portfolio = [
   {
     id: 8,
     title: "Wildbeast",
-    img: Perfil,
+    img: wildbeast,
     details: [
       {
         icon: <FiFileText />,
@@ -637,30 +655,30 @@ export const socials = [
     id: 1,
     socialMedia: "Linkedin",
     icon: <FaLinkedin />,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/joaokremer/",
   },
   {
     id: 2,
     socialMedia: "WhatsApp",
     icon: <FaWhatsapp />,
-    link: "https://web.whatsapp.com/",
+    link: "https://api.whatsapp.com/send?phone=5521998090895",
   },
   {
     id: 3,
     socialMedia: "Discord",
     icon: <FaDiscord />,
-    link: "https://discord.com/",
+    link: "https://discord.com/users/joaokremer#2691",
   },
   {
     id: 4,
     socialMedia: "Gmail",
     icon: <FaEnvelope />,
-    link: "https://mail.google.com/",
+    link: "https://mail.google.com/mail/?view=cm&to=joaokremer.developer@gmail.com",
   },
   {
     id: 5,
     socialMedia: "Instagram",
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/joao_kremer/",
   },
 ];
