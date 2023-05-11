@@ -6,6 +6,7 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  FaGithub,
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
@@ -28,7 +29,6 @@ import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
 
-import Perfil from "../src/assets/perfil.png";
 import animais from '../src/assets/animais.png'
 import wildbeast from '../src/assets/wildbeast.png'
 import portfolioJS from '../src/assets/portfolioJS.png';
@@ -680,5 +680,11 @@ export const socials = [
     socialMedia: "Instagram",
     icon: <FaInstagram />,
     link: "https://www.instagram.com/joao_kremer/",
+  },
+  {
+    id: 6,
+    socialMedia: "Github",
+    icon: <FaGithub />,
+    link: "https://github.com/JoaoKremerDev",
   },
 ];

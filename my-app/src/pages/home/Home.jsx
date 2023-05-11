@@ -3,7 +3,6 @@ import Profile from '../../assets/perfil.png';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import "./home.css"
-import Themes from '../../components/Themes';
 
 const Home = () => {
   return (
@@ -16,7 +15,7 @@ const Home = () => {
           <span>Desenvolvedor Web</span>
           </h1>
           <p className="home__description">
-            Eu sou um Desenvolvedor Front-end com foco em criar uma experiência agradável para o usuário apaixonado pela criação de softwares que possam ajudar aqueles que estão ao meu redor. 
+          Como desenvolvedor front-end, meu principal objetivo é criar uma experiência agradável para o usuário. Estou aqui para ajudá-lo a transformar suas ideias em realidade e dar vida aos seus projetos!
           </p>
 
           <Link to='/sobre' className='button'>
